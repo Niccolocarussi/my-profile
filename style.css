@@ -1,0 +1,47 @@
+/* Réinitialisation des styles de base */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* Styles du corps de la page */
+body {
+  background-color: #f9f9f9; /* Légère variation pour un arrière-plan plus clair */
+  font-family: 'Roboto', sans-serif; /* Mise à jour de la police pour une apparence plus moderne */
+  line-height: 1.6;
+  text-align: left; /* Alignement à gauche pour une meilleure lisibilité */
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #333; /* Couleur du texte légèrement assombrie pour un meilleur contraste */
+}
+
+/* Conteneur principal */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Carte avec une couleur plus douce */
+.card {
+  background-color: #ffffff; /* Couleur de carte modifiée pour un aspect plus doux */
+  padding: 30px;
+  border-radius: 12px; /* Courbure des coins légèrement plus marquée */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Légère augmentation de l'ombre pour un effet de profondeur */
+  margin-bottom: 30px;
+}
+
+/* Image avec des coins arrondis */
+.img-circle {
+  border-radius: 10px; /* Coins légèrement arrondis pour une apparence moderne */
+  max-width: 100%;
+  height: auto;
+}
